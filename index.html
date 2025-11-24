@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>alura</title>
+    <title>Alura - Busca de Tecnologias</title>
 </head>
 <body>
     <header>
         <h1>alura</h1>
-        <div><input type="text" placeholder="Digite uma linguagem de programação">
-            <button onclick="iniciarBusca()">Buscar</button>
-        </div>
+        <form id="search-form">
+            <input id="search-input" type="text" placeholder="Digite uma tecnologia" aria-label="Campo de busca por tecnologia">
+            <button type="submit">Buscar</button>
+        </form>
     </header>
     <main>
         <section class="card-container">
-           <!-- <<article class="card">
+           <!-- <article class="card">
             <h2>JavaScript</h2>
             <p>1995</p> 
             <p>JavaScript é uma linguagem de programação</p>
-            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="blank">Saiba mais></a>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais></a>
            </article>
             <article class="card">
             <h2>Pytho</h2>
